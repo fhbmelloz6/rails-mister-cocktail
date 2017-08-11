@@ -3,4 +3,5 @@
 
 <%= link_to "Delete cocktail", cocktail_path(@cocktail), method: :delete, class: "btn btn-primary" %>
 <%= link_to "Back", cocktails_path, class: "btn btn-primary" %>
+<%= cl_image_tag @cocktail.photo, height: 230, width: 200, crop: :fill %>
 
