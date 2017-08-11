@@ -1,4 +1,5 @@
 ruby '2.3.4'
+# INSERTED BY ME SO THAT HEROKU USES THE CORRECT RUBY VERSION
 source 'https://rubygems.org'
 
 git_source(:github) do |repo_name|
