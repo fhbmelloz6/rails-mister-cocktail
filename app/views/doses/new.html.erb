@@ -1,0 +1,7 @@
+<%= simple_form_for([@cocktail, @dose]) do |f| %>
+  <%= f.error_notification %>
+  <%= f.input :description %>
+  <%= f.association :ingredient %>
+
+  <%= f.submit "FHM create new dose" %>
+<% end %>
