@@ -7,8 +7,8 @@
 
 <%= cl_image_tag @cocktail.photo, height: 230, width: 200, crop: :fill %></p>
 
-<%= link_to "Delete this cocktail", cocktail_path(@cocktail), method: :delete, class: "btn btn-primary" %>
-<%= link_to "Back to list of cocktails", cocktails_path, class: "btn btn-primary" %>
+<%= link_to "Delete esse registro", cocktail_path(@cocktail), method: :delete, class: "btn btn-primary" %>
+<%= link_to "Volte para a lista de registros", cocktails_path, class: "btn btn-primary" %>
 
 
-<%= link_to "FHM Create dose", new_cocktail_dose_path(@cocktail.id), class: "btn btn-primary" %>
+<%= link_to "Insira um atributo", new_cocktail_dose_path(@cocktail.id), class: "btn btn-primary" %>
