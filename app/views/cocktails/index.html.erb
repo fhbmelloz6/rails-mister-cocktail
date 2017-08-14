@@ -1,4 +1,5 @@
-<p> From index.html.erb <p>
+<p> From index.html.erb </p>
+
 <% @cocktails.each do |cocktail| %>
   <h2><%= link_to cocktail.name, cocktail_path(cocktail) %></h2>
 <% end %>
